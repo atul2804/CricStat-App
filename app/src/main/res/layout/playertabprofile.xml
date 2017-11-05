@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/progressbar"
+        android:visibility="gone" />
+
+    <!--<ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/rahuldravid2"/> -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rt1"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/playername"
+            android:text="Atul Singh"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_blue"
+            android:layout_centerHorizontal="true" />
+
+     <!--   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/countryname"
+            android:text="India"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_blue"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>  -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Birth Place : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/birthplace"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Age : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/age"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Role : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/role"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Bat Type  "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/battype"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Bowl Type  "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/bowltype"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+</LinearLayout>

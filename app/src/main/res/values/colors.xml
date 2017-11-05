@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dark_blue">#204062</color>
+    <color name="white">#ffffff</color>
+    <color name="black_light">#9929303f</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="postSeparatorLine">#e8f0f5</color>
+
+    <color name="list_color">#37474F</color>
+
+    <color name="iron">#CCCCCC</color>
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/progressbar"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/rt1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:id="@+id/teamphoto"
+            android:src="@drawable/rahuldravid2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamname"
+            android:text="India"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_blue"
+            android:layout_below="@id/teamphoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Board"
+            android:id="@+id/board"
+            android:textSize="20sp"
+            android:textColor="@color/dark_blue"
+            android:layout_below="@id/teamname"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignStart="@+id/teamname" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Captain   "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/captain"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Vice Captain   "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/vicecaptain"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ODI Rank "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/odirank"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rt1">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Test Rank  "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atul"
+            android:textSize="20sp"
+            android:id="@+id/testrank"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black_light"/>
+    </LinearLayout>
+
+</LinearLayout>
